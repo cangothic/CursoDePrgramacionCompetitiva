@@ -3,7 +3,7 @@ dy = (0,0,-1,1)
 def valido(x, y, n, m):
     if x < 0 or y < 0 or x >= n or y >= m:
         return False
-    return True;
+    return True
 
 def dfs(x,y,g,c,d,n,m):
     if g[x][y]!='.':
