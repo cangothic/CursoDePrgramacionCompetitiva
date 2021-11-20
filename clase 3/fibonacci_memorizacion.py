@@ -3,7 +3,7 @@ memorizacion = [0,1]
 
 def fib(n):
     maximo_calculado = len(memorizacion)-1
-    if len(memorizacion)-1 == n:
+    if len(memorizacion) > n:
         return memorizacion[n]
     while(maximo_calculado < n):
         maximo_calculado +=1
